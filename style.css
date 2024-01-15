@@ -11,10 +11,22 @@ body {
     -ms-hyphens: auto;
     hyphens: auto;
 }
-#profilephoto {
-    float: right;
-}
 h1 {
     display: inline-block;
     margin: auto;
+}
+#profilephoto {
+    float: right;
+}
+.project img {
+    display: inline-block;
+    min-height: 10em;
+}
+.project {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.project-summary {
+    float: left;
+    padding-bottom: 1em;
 }
