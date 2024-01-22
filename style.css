@@ -12,19 +12,9 @@ body {
     hyphens: auto;
     min-width: fit-content;
 }
-#profilephoto {
-}
-.project img {
-    display: inline-block;
-    min-height: 10em;
-}
-.project {
-    padding-top: 1em;
-    padding-bottom: 1em;
-}
-.project-summary {
-    float: left;
-    padding-bottom: 1em;
+.last-updated {
+    font-size: 0.8em;
+    color: #999;
 }
 .header {
     display: flex;
@@ -47,8 +37,32 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
+    gap: 0.5em; /* to separate projects */
 }
-.last-updated {
-    font-size: 0.8em;
-    color: #999;
+h2 {
+    margin-top: 1em; /* to separate from previous section */
+    margin-bottom: 0;
+}
+.project {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1em; /* to separate project summary from image */
+}
+.project img {
+    display: inline-block;
+    border-radius: 10%;
+    max-width: 8em;
+}
+.project-infos {
+    display: flex;
+    flex-direction: column;
+}
+.project-infos h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.project-infos p {
+    margin-top: 0;
+    margin-bottom: 0;
 }
