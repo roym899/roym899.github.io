@@ -1,7 +1,7 @@
 body {
     font-family: Open Sans,Arial;
     color: #454545;
-    font-size: 16px;
+    font-size: 100%;
     margin: 2em auto;
     max-width: 800px;
     padding: 1em;
@@ -10,13 +10,9 @@ body {
     -webkit-hyphens: auto;
     -ms-hyphens: auto;
     hyphens: auto;
-}
-h1 {
-    display: inline-block;
-    margin: auto;
+    min-width: fit-content;
 }
 #profilephoto {
-    float: right;
 }
 .project img {
     display: inline-block;
@@ -29,4 +25,29 @@ h1 {
 .project-summary {
     float: left;
     padding-bottom: 1em;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: last baseline; /* to nicely align profile photo with h1 */
+}
+.header h1 {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: auto; /* to push profile photo to the right */
+    padding-right: 1em;  /* to separate from profile photo */
+}
+.header img {
+    display: inline-block;
+    max-width: 8em;
+}
+.projects {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.last-updated {
+    font-size: 0.8em;
+    color: #999;
 }
