@@ -2,15 +2,16 @@ body {
     font-family: Open Sans,Arial;
     color: #454545;
     font-size: 100%;
-    margin: 0 auto;
     max-width: 800px;
+    margin: 0 auto;
     padding: 1em;
     line-height: 1.4;
-    text-align: justify;
+    height: fit-content;
+    width: fit-content;
+    /* text-align: justify; */
     -webkit-hyphens: auto;
     -ms-hyphens: auto;
     hyphens: auto;
-    min-width: fit-content;
 }
 .last-updated {
     font-size: 0.8em;
@@ -41,13 +42,19 @@ body {
 }
 h2 {
     margin-top: 1em; /* to separate from previous section */
-    margin-bottom: 0;
+    margin-bottom: 0.5em;
 }
 .project {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     gap: 1em; /* to separate project summary from image */
+    max-width: inherit;
+    padding: 0.5em;
+}
+.project.highlight {
+    /* light golden color */
+    background-color: #ffecb3;
 }
 .project img {
     display: inline-block;
@@ -57,12 +64,26 @@ h2 {
 .project-infos {
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
 }
 .project-infos h3 {
+    display: flex;
     margin-top: 0;
     margin-bottom: 0;
+    font-size: 100%;
 }
 .project-infos p {
-    margin-top: 0;
-    margin-bottom: 0;
+}
+.project-infos .authors {
+    font-size: 70%;
+}
+.project-infos .venue {
+    font-size: 70%;
+}
+.project-infos .links {
+    font-size: 70%;
+}
+sup {
+  vertical-align: top;
+  font-size: smaller;
 }
