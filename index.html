@@ -7,48 +7,69 @@
   </head>
   <body>
     <div class="header">
-      <h1>Leonard Bruns</h1>
       <img src="assets/photo.jpg" alt="Leonard Bruns" />
-    </div>
-    <div class="summary">
-      I am a PhD candidate in robotics and computer vision supervised by Patric
-      Jensfelt (started October 2019).
-      <br />
-      <br />
-      My main research interests are at the intersection of robotics and
-      computer vision (and to a lesser degree computer graphics). I am
-      particularly interested in the development of algorithms for robot
-      perception such as pose and shape estimation of objects from partial
-      information, dense SLAM, and visual localization.
-    </div>
-    <div class="last-updated">Last updated: 2025-07-01</div>
-    <div>
-      <a href="mailto:roym899@gmail.com">E-Mail</a> |
-      <a href="https://twitter.com/leonard_bruns">Twitter</a> |
-      <a href="https://www.threads.net/@roym899">Threads</a> |
-      <a href="https://www.linkedin.com/in/leonard-bruns/">LinkedIn</a> |
-      <a href="https://github.com/roym899/">GitHub</a> |
-      <a href="https://scholar.google.com/citations?user=it2FrfsAAAAJ"
-        >Google Scholar</a
-      >
-      | <a href="pdfs/cv.pdf">CV</a>
+      <h1>Leonard Bruns</h1>
+      <div class="summary">
+        I am a computer vision researcher working at
+        <a href="https://www.nianticspatial.com/">Niantic Spatial</a> and a PhD candidate at KTH.
+        <br />
+        <br />
+        My main research interests are at the intersection of 3D computer vision and robotics (and
+        to a lesser degree computer graphics). I am particularly interested in the development of
+        algorithms for robot perception such as pose and shape estimation of objects from partial
+        information, dense SLAM, and visual relocalization.
+      </div>
+      <div class="last-updated">Last updated: November 2, 2025</div>
+      <div>
+        <a href="mailto:roym899@gmail.com">E-Mail</a> |
+        <a href="https://twitter.com/leonard_bruns">Twitter</a> |
+        <a href="https://www.threads.net/@roym899">Threads</a> |
+        <a href="https://www.linkedin.com/in/leonard-bruns/">LinkedIn</a> |
+        <a href="https://github.com/roym899/">GitHub</a> |
+        <a href="https://scholar.google.com/citations?user=it2FrfsAAAAJ">Google Scholar</a>
+        | <a href="pdfs/cv.pdf">CV</a>
+      </div>
     </div>
 
     <h2>Projects</h2>
     <div class="projects">
       <div class="project highlight">
-        <img src="assets/projects/ngm.png" />
+        <!-- <img src="assets/projects/ngm.png" /> -->
+        <video muted autoplay loop>
+          <source src="videos/aceg_teaser.mp4">
+        </video>
         <div class="project-infos">
           <h3>
-            Neural Graph Map: Dense Mapping with Efficient Loop Closure
-            Integration
+            ACE-G: Improving Generalization of Scene Coordinate Regression Through Query
+            Pre-Training
           </h3>
           <div class="authors">
-            <b>Leonard Bruns</b>, Jun Zhang, Patric Jensfelt
+            <b>Leonard Bruns</b>, Axel Barroso-Laguna, Tommaso Cavallari, Áron Monszpart, Sowmya
+            Munukutla, Victor Adrian Prisacariu, Eric Brachmann
           </div>
           <div class="venue">
-            IEEE/CVF Winter Conference on Applications of Computer Vision
-            (WACV), 2900-2909, 2025
+            IEEE/CVF International Conference on Computer Vision (ICCV), 26751-26761
+          </div>
+          <div class="links">
+            <a href="./pdfs/aceg_2025.pdf">pdf</a> |
+            <a href="https://arxiv.org/abs/2510.11605">arXiv</a> |
+            <a
+              href="https://openaccess.thecvf.com/content/ICCV2025/html/Bruns_ACE-G_Improving_Generalization_of_Scene_Coordinate_Regression_Through_Query_Pre-Training_ICCV_2025_paper.html"
+              >CVF</a
+            >
+            | <a href="https://nianticspatial.github.io/ace-g/">Project Page</a> |
+            <a href="https://github.com/nianticspatial/ace-g">Github</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project highlight">
+        <img src="assets/projects/ngm.png" />
+        <div class="project-infos">
+          <h3>Neural Graph Map: Dense Mapping with Efficient Loop Closure Integration</h3>
+          <div class="authors"><b>Leonard Bruns</b>, Jun Zhang, Patric Jensfelt</div>
+          <div class="venue">
+            IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2900-2909, 2025
           </div>
           <div class="links">
             <a href="./pdfs/ngm_2025.pdf">pdf</a> |
@@ -58,9 +79,7 @@
               >CVF</a
             >
             |
-            <a href="https://kth-rpl.github.io/neural_graph_mapping/"
-              >Project Page</a
-            >
+            <a href="https://kth-rpl.github.io/neural_graph_mapping/">Project Page</a>
             |
             <a href="https://github.com/KTH-RPL/neural_graph_mapping">Github</a>
           </div>
@@ -71,15 +90,15 @@
         <img src="assets/projects/tgm.png" />
         <div class="project-infos">
           <h3>
-            Transitional Grid Maps: Efficient Analytical Inference of Dynamic
+            Transitional Grid Maps: Efficient Analytical Inference of Dynamic Environments under
+            Limited Sensing
           </h3>
           <div class="authors">
-            José Manuel Gaspar Sánchez, <b>Leonard Bruns</b>, Jana Tumova,
-            Patric Jensfelt, Martin Törngren
+            José Manuel Gaspar Sánchez, <b>Leonard Bruns</b>, Jana Tumova, Patric Jensfelt, Martin
+            Törngren
           </div>
           <div class="venue">
-            IEEE Open Journal of Intelligent Transportation Systems 6, 1-10,
-            2025
+            IEEE Open Journal of Intelligent Transportation Systems 6, 1-10, 2025
           </div>
           <div class="links">
             <a href="https://arxiv.org/abs/2401.06518">arXiv</a> |
@@ -91,17 +110,14 @@
       <div class="project">
         <img src="assets/projects/cvaepor.png" />
         <div class="project-infos">
-          <h3>
-            Conditional Variational Autoencoders for Probabilistic Pose
-            Regression
-          </h3>
+          <h3>Conditional Variational Autoencoders for Probabilistic Pose Regression</h3>
           <div class="authors">
-            Fereidoon Zangeneh, <b>Leonard Bruns</b>, Amit Dekel, Alessandro
-            Pieropan, Patric Jensfelt
+            Fereidoon Zangeneh, <b>Leonard Bruns</b>, Amit Dekel, Alessandro Pieropan, Patric
+            Jensfelt
           </div>
           <div class="venue">
-            IEEE/RSJ International Conference on Intelligent Robots and Systems
-            (IROS), 2794-2800, 2024
+            IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2794-2800,
+            2024
           </div>
           <div class="links">
             <a href="./pdfs/cvaepor_2024.pdf">pdf</a> |
@@ -115,22 +131,19 @@
         <img src="assets/projects/cpas.png" />
         <div class="project-infos">
           <h3>
-            RGB-D-Based Categorical Object Pose and Shape Estimation: Methods,
-            Datasets, and Evaluation
+            RGB-D-Based Categorical Object Pose and Shape Estimation: Methods, Datasets, and
+            Evaluation
           </h3>
           <div class="authors"><b>Leonard Bruns</b>, Patric Jensfelt</div>
           <div class="venue">Robotics and Autonomous Systems 168, 2023</div>
           <div class="links">
             <a href="./pdfs/cpas_2023.pdf">pdf</a> |
             <a href="https://arxiv.org/abs/2301.08147">arXiv</a> |
-            <a
-              href="https://www.sciencedirect.com/science/article/pii/S092188902300146X"
+            <a href="https://www.sciencedirect.com/science/article/pii/S092188902300146X"
               >Elsevier</a
             >
             |
-            <a href="https://github.com/roym899/pose_and_shape_evaluation"
-              >Github</a
-            >
+            <a href="https://github.com/roym899/pose_and_shape_evaluation">Github</a>
           </div>
         </div>
       </div>
@@ -138,17 +151,13 @@
       <div class="project">
         <img src="assets/projects/vapor.png" />
         <div class="project-infos">
-          <h3>
-            A Probabilistic Framework for Visual Localization in Ambiguous
-            Scenes
-          </h3>
+          <h3>A Probabilistic Framework for Visual Localization in Ambiguous Scenes</h3>
           <div class="authors">
-            Fereidoon Zangeneh, <b>Leonard Bruns</b>, Amit Dekel, Alessandro
-            Pieropan, Patric Jensfelt
+            Fereidoon Zangeneh, <b>Leonard Bruns</b>, Amit Dekel, Alessandro Pieropan, Patric
+            Jensfelt
           </div>
           <div class="venue">
-            IEEE International Conference on Robotics and Automation (ICRA),
-            3969-3975, 2023
+            IEEE International Conference on Robotics and Automation (ICRA), 3969-3975, 2023
           </div>
           <div class="links">
             <a href="./pdfs/vapor_2023.pdf">pdf</a> |
@@ -162,15 +171,11 @@
       <div class="project">
         <img src="assets/projects/sdftracking.png" />
         <div class="project-infos">
-          <h3>
-            SDF-Based RGB-D Camera Tracking in Neural Scene Representations
-          </h3>
-          <div class="authors">
-            <b>Leonard Bruns</b>, Fereidoon Zangeneh, Patric Jensfelt
-          </div>
+          <h3>SDF-Based RGB-D Camera Tracking in Neural Scene Representations</h3>
+          <div class="authors"><b>Leonard Bruns</b>, Fereidoon Zangeneh, Patric Jensfelt</div>
           <div class="venue">
-            IEEE ICRA Workshop on Motion Planning with Implicit Neural
-            Representations of Geometry, 2022
+            IEEE ICRA Workshop on Motion Planning with Implicit Neural Representations of Geometry,
+            2022
           </div>
           <div class="links">
             <a href="./pdfs/sdftracking_2022.pdf">pdf</a> |
@@ -183,13 +188,11 @@
         <img src="assets/projects/sdfest.png" />
         <div class="project-infos">
           <h3>
-            SDFEst: Categorical Pose and Shape Estimation of Objects From RGB-D
-            Using Signed Distance Fields
+            SDFEst: Categorical Pose and Shape Estimation of Objects From RGB-D Using Signed
+            Distance Fields
           </h3>
           <div class="authors"><b>Leonard Bruns</b>, Patric Jensfelt</div>
-          <div class="venue">
-            IEEE Robotics and Automation Letters 7 (4), 9597-9604, 2022
-          </div>
+          <div class="venue">IEEE Robotics and Automation Letters 7 (4), 9597-9604, 2022</div>
           <div class="links">
             <a href="./pdfs/sdfest_2022.pdf">pdf</a> |
             <a href="https://arxiv.org/abs/2207.04880">arXiv</a> |
@@ -202,25 +205,15 @@
       <div class="project">
         <img src="assets/projects/evaluation.png" />
         <div class="project-infos">
-          <h3>
-            On the Evaluation of RGB-D-Based Categorical Pose and Shape
-            Estimation
-          </h3>
+          <h3>On the Evaluation of RGB-D-Based Categorical Pose and Shape Estimation</h3>
           <div class="authors"><b>Leonard Bruns</b>, Patric Jensfelt</div>
-          <div class="venue">
-            Intelligent Autonomous Systems 17 (IAS-17), 360-377, 2023
-          </div>
+          <div class="venue">Intelligent Autonomous Systems 17 (IAS-17), 360-377, 2023</div>
           <div class="links">
             <a href="./pdfs/evaluation_2022.pdf">pdf</a> |
             <a href="https://arxiv.org/abs/2202.10346">arXiv</a> |
-            <a
-              href="https://link.springer.com/chapter/10.1007/978-3-031-22216-0_25"
-              >Springer</a
-            >
+            <a href="https://link.springer.com/chapter/10.1007/978-3-031-22216-0_25">Springer</a>
             |
-            <a href="https://github.com/roym899/pose_and_shape_evaluation"
-              >Github</a
-            >
+            <a href="https://github.com/roym899/pose_and_shape_evaluation">Github</a>
           </div>
         </div>
       </div>
@@ -228,16 +221,12 @@
       <div class="project">
         <img src="assets/projects/benchmr.png" />
         <div class="project-infos">
-          <h3>
-            Bench-MR: A Motion Planning Benchmark for Wheeled Mobile Robots
-          </h3>
+          <h3>Bench-MR: A Motion Planning Benchmark for Wheeled Mobile Robots</h3>
           <div class="authors">
             Eric Heiden<sup>*</sup>, Luigi Palmieri<sup>*</sup>,
             <b>Leonard Bruns</b>, Kai O. Arras, Gaurav S. Sukhatme, Sven Koenig
           </div>
-          <div class="venue">
-            IEEE Robotics and Automation Letters 6 (3), 4536-4543, 2021
-          </div>
+          <div class="venue">IEEE Robotics and Automation Letters 6 (3), 4536-4543, 2021</div>
           <div class="links">
             <a href="https://ieeexplore.ieee.org/document/9387068">IEEE</a> |
             <a href="https://github.com/robot-motion/bench-mr">Github</a>
@@ -248,16 +237,12 @@
       <div class="project highlight">
         <img src="assets/projects/dispertio.png" />
         <div class="project-infos">
-          <h3>
-            Dispertio: Optimal Sampling For Safe Deterministic Motion Planning
-          </h3>
+          <h3>Dispertio: Optimal Sampling For Safe Deterministic Motion Planning</h3>
           <div class="authors">
             Luigi Palmieri<sup>*</sup>, <b>Leonard Bruns<sup>*</sup></b
             >, Michael Meurer, Kai Oliver Arras
           </div>
-          <div class="venue">
-            IEEE Robotics and Automation Letters 5 (2), 362-368, 2019
-          </div>
+          <div class="venue">IEEE Robotics and Automation Letters 5 (2), 362-368, 2019</div>
           <div class="links">
             <a href="./pdfs/dispertio_2020.pdf">pdf</a> |
             <a href="https://arxiv.org/abs/1909.13552">arXiv</a> |

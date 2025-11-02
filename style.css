@@ -4,7 +4,7 @@ body {
     Arial;
   color: #454545;
   font-size: 100%;
-  max-width: 60em;
+  max-width: 50em;
   margin: 0 auto;
   padding: 1em;
   line-height: 1.4;
@@ -14,26 +14,24 @@ body {
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
+  background-color: #FEFEFE;
 }
 .last-updated {
   font-size: 0.8em;
   color: #999;
 }
 .header {
-  display: flex;
-  flex-direction: row;
-  align-items: last baseline; /* to nicely align profile photo with h1 */
+  display: block;
 }
 .header h1 {
   display: inline-block;
-  margin-bottom: 0;
-  margin-right: auto; /* to push profile photo to the right */
-  padding-right: 1em; /* to separate from profile photo */
 }
 .header img {
+  float: right;
   display: inline-block;
-  max-width: 8em;
-  border-radius: 10%;
+  max-width: min(calc(20vw), 8em);
+  border-radius: 1em;
+  margin-left: 1em;
 }
 .projects {
   display: flex;
@@ -57,10 +55,17 @@ h2 {
 .project.highlight {
   /* light golden color */
   background-color: #ffecb3;
+  border-radius: 1em;
 }
 .project img {
   display: inline-block;
-  border-radius: 10%;
+  border-radius: 1em;
+  max-width: 10em;
+  align-self: center;
+}
+.project video {
+  display: inline-block;
+  border-radius: 1em;
   max-width: 10em;
   align-self: center;
 }
